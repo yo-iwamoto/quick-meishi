@@ -1,7 +1,17 @@
+import { Flex } from '@kuma-ui/core';
+
 export function App() {
   return (
-    <h1 className='flex min-h-screen items-center justify-center text-center text-5xl font-bold italic'>
+    <Flex
+      justify='center'
+      alignItems='center'
+      textAlign='center'
+      fontSize='xx-large'
+      fontWeight='bold'
+      fontStyle='italic'
+      minHeight='100vh'
+    >
       Hello Vite⚡️
-    </h1>
+    </Flex>
   );
 }
