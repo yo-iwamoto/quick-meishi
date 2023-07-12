@@ -21,13 +21,8 @@
     },
     "module": "esnext",
     "resolveJsonModule": true,
-    "types": ["vitest/globals"],
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ]
+    "types": ["vitest/globals"]
   },
-  "include": ["src" ],
+  "include": ["src", "vite.config.ts"],
   "exclude": ["node_modules"]
 }
