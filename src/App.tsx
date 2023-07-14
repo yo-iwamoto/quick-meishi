@@ -1,17 +1,11 @@
-import { Flex } from '@kuma-ui/core';
+import { router } from './router';
+import { RouterProvider } from '@tanstack/router';
+import { StrictMode } from 'react';
 
 export function App() {
   return (
-    <Flex
-      justify='center'
-      alignItems='center'
-      textAlign='center'
-      fontSize='xx-large'
-      fontWeight='bold'
-      fontStyle='italic'
-      minHeight='100vh'
-    >
-      Hello Vite⚡️
-    </Flex>
+    <StrictMode>
+      <RouterProvider router={router} />
+    </StrictMode>
   );
 }

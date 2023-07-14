@@ -6,11 +6,6 @@ import KumaUI from '@kuma-ui/vite';
 
 export default defineConfig({
   plugins: [react(), KumaUI()],
-  resolve: {
-    alias: {
-      '@/': 'src/',
-    },
-  },
   server: {
     open: true,
   },

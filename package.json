@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@kuma-ui/core": "^1.0.0",
+    "@tanstack/router": "0.0.1-beta.104",
+    "qrcode": "^1.5.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -18,6 +20,7 @@
     "@kuma-ui/vite": "^1.0.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
+    "@types/qrcode": "^1.5.1",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "@types/testing-library__jest-dom": "^5.14.8",

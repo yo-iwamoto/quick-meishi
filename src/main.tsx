@@ -1,5 +1,6 @@
 import { App } from './App';
 import { createRoot } from 'react-dom/client';
+import './styles/reset.css';
 
 const container = document.getElementById('root');
 if (container === null) {
