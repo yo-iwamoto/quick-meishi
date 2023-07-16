@@ -3,7 +3,7 @@ import { k } from '@kuma-ui/core';
 
 export function PreviewPage() {
   const portfolioUrl = new URLSearchParams(window.location.search).get(
-    'portfolio',
+    'portfolioUrl',
   );
 
   const url = useQrUrl(portfolioUrl);
